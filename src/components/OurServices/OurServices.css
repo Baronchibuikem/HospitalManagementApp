@@ -1,0 +1,10 @@
+.setbg {
+  color: black;
+  background-image: url("../../assets/service-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-color: aquamarine;
+}

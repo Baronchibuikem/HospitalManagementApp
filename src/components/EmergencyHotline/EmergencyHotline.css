@@ -1,0 +1,16 @@
+.hotline-area {
+  color: black;
+  background-image: url("../../assets/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  background-color: #eeeeee;
+}
+span {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 28px;
+  display: block;
+}

@@ -1,0 +1,34 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: Libre Baskerville, serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  padding: 0px;
+}
+.footer-link {
+  color: white !important;
+}
+.footer-link:hover {
+  color: blue !important;
+}
+
+a {
+  color: black !important;
+}
+.lg {
+  color: blue !important;
+}
+
+.success {
+  color: blue !important;
+}
+.table th {
+  font-size: 18px !important;
+}
+.table td {
+  font-size: 16px !important;
+}

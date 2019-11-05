@@ -1,0 +1,9 @@
+.footer-section {
+  color: black;
+  background-image: url("../../assets/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,41 @@
+.hero-section {
+  position: relative;
+  height: 870px;
+  margin-bottom: -54px;
+  background-image: url("../../assets/home-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-text {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.hero-text h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.site-btn {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  min-width: 170px;
+  text-align: center;
+  background: #30caa0;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+}
