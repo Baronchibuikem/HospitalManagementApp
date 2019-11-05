@@ -25,16 +25,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Custom application
+    "accounts",
+    "Departments",
+    "Patients",
+    "Dashboard",
     # for REST API
     'rest_framework',
     # 3rd party Applications
     'corsheaders',
     'knox',
-    # Custom application
-    "accounts",
-    "Departments",
-    "Patients",
-    "Dashboard"
 ]
 
 MIDDLEWARE = [
