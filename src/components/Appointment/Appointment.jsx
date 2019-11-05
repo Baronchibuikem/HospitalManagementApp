@@ -7,7 +7,7 @@ import axios from "axios";
 class ContactPage extends Component {
   onSubmit(formValues) {
     return axios.post(
-      "http://purityhospital.herokuapp.com/dashboard/message/",
+      "http://purityclinic.herokuapp.com/dashboard/message/",
       formValues
     );
   }

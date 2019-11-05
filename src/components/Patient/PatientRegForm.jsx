@@ -13,7 +13,7 @@ class PatientRegForm extends Component {
 
   onSubmit(formValues) {
     return axios.post(
-      "http://purityhospital.herokuapp.com/patients/postpatient/",
+      "http://purityclinic.herokuapp.com/patients/postpatient/",
       formValues
     );
   }

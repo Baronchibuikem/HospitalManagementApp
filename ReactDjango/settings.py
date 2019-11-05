@@ -38,7 +38,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'corsheaders.middleware.CorsMiddleware',#added middleware for cors-header
+    'corsheaders.middleware.CorsMiddleware',  # added middleware for cors-header
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -123,23 +123,21 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "build", "static"),
 ]
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'static/')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/')
 
-MEDIA_ROOT = os.path.join(BASE_DIR,'')
+MEDIA_ROOT = os.path.join(BASE_DIR, '')
 
 MEDIA_URL = 'media/'
 
-# STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Whitelisting localhost:3000  because our frontend will be served there
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3000', 
+    'http://purityclinic.herokuapp.com'
 ]
-
 
 
 REST_FRAMEWORK = {
@@ -147,7 +145,7 @@ REST_FRAMEWORK = {
     #     # 'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly',
     #     'rest_framework.permissions.AllowAny',
     # ],
-    'DEFAULT_AUTHENTICATION_CLASSES':("knox.auth.TokenAuthentication",)
+    'DEFAULT_AUTHENTICATION_CLASSES': ("knox.auth.TokenAuthentication",)
 }
 
 
@@ -155,7 +153,7 @@ REST_FRAMEWORK = {
 SITE_ID = 1
 
 
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # AUTH_USER_MODEL = 'dashboard.User'
 # ACCOUNT_UNIQUE_EMAIL = True
