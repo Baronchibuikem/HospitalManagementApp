@@ -88,7 +88,7 @@ class RegistrationForm extends Component {
           </small>
 
           <input
-            type="password2"
+            type="password"
             name="password2"
             className="form-control"
             placeholder="Password2"
