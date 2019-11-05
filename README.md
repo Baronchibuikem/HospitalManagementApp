@@ -63,5 +63,7 @@ To run this application
         npm start
 
     whenever you make a change in the react components, remember to run "npm run-script build"
+    
+Demo : http://purityclinic.herokuapp.com/
 
 You are welcomed to improve on this version if you so wish and submit a PR.
