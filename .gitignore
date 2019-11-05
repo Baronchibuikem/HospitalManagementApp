@@ -1,9 +1,9 @@
 .env
-staticfiles/
-db.sqlite3
-__pycache__
- ../__pycache__/
+.vscode
+myenv/
+__pycache__/
  
+ *.pyc
  # dependencies
 /node_modules
 /.pnp
